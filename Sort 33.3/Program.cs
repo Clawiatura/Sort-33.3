@@ -2,7 +2,7 @@
 int Even;
 int Odd;
 
-for (int i = 1; i <= 100; i++)
+for (int i = 100; i >= 1; i--)
 {
 
 
@@ -14,9 +14,10 @@ for (int i = 1; i <= 100; i++)
         Console.Write(Even + " ");
     }
 }
-  for (int i = 1;i<= 100; i+=2)
+for (int i = 100-1; i >= 1;i-=2)
 {
     Odd = i;
+    
     Console.Write(Odd+" ");
 
 }
